@@ -5,6 +5,8 @@ import '../../ui/device/deviceList.js';
 
 import '../../ui/dashboard/dashboard.scss';
 import '../../ui/components/components.css';
+import '../../ui/AdminLTE/skins';
+import '../../ui/AdminLTE/AdminLTE.min.css';
 
 // 登录界面
 Router.route('login', {
