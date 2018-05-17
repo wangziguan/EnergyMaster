@@ -1,0 +1,40 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base@1.3.0             # Packages every Meteor app needs to have
+mobile-experience@1.0.5       # Packages for a great mobile UX
+mongo@1.4.2                   # The database Meteor supports right now
+blaze-html-templates@1.0.4 # Compile .html files into Meteor Blaze views
+reactive-var@1.0.11            # Reactive variable for tracker
+tracker@1.1.3                 # Meteor's client-side reactive programming library
+
+standard-minifier-css@1.4.0   # CSS minifier run for production mode
+standard-minifier-js@2.3.1    # JS minifier run for production mode
+es5-shim@4.7.0                # ECMAScript 5 compatibility for older browsers
+ecmascript@0.10.6              # Enable ECMAScript2015+ syntax in app code
+shell-server@0.3.1            # Server-side component of the `meteor shell` command
+
+insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
+
+perak:mqtt-collection         # IoT for Meteor - send/receive MQTT messages via collections
+mdg:validated-method          # A simple wrapper for Meteor.methods
+check                         # Check whether a value matches a pattern
+
+iron:router                   # Routing specifically designed for Meteor
+dburles:collection-helpers    # Transform your collections with helpers that you define
+accounts-base                 # A user account system
+accounts-password             # Password support for acconts
+alanning:roles                # Authorization package for Meteor
+twbs:bootstrap                # Bootstrap
+fortawesome:fontawesome       # 500+ scalable vector icons, customizable via CSS, Retina friendly
+
+
+mousetrap:mousetrap           # Mousetrap (official): bind, trigger and handle keyboard events on keys, combinations and sequences
+goltfisch:jquery-backstretch  # jQuery Backstretch repackages for Meteor
+fourseven:scss                # Style with attitude. Sass and SCSS support for Meteor.js.
+jquery                        # Manipulate the DOM using CSS selectors
+session                       # Session variable
+wangziguan:admin
