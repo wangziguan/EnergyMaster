@@ -1,0 +1,197 @@
+.loginClient {
+    font: 12px/1.2 Arial, Tahoma, "宋体", sans-serif;
+    color: #333;
+    .head-login {
+      height: 140px;
+      border: none;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      .logo {
+        height: 80px;
+        float: left;
+        .logoImg {
+          height: 80px;
+          float: left;
+        }
+      }
+      .logoname {
+        float: left;
+        padding-top: 10px;
+        font: 22px/1.8 "微软雅黑", "黑体", sans-serif;
+        color: #666;
+      }
+    }
+  
+    background-color: #666 !important;
+  
+    .logo {
+      padding: 35px;
+      padding-left: 90px;
+      padding-top: 35px;
+      text-align: center;
+    }
+    
+    .content {
+      background: url(/loginClient/bg-white-lock.png) repeat;
+      width: 360px;
+      margin: 0 auto;
+      margin-bottom: 0px;
+      padding: 30px;
+      //padding-top: 20px;
+      //padding-bottom: 15px;
+      -webkit-border-radius: 7px;
+      -moz-border-radius: 7px;
+      -ms-border-radius: 7px;
+      -o-border-radius: 7px;
+      border-radius: 7px;
+    }
+  
+    .content h3 {
+      color: white;
+    }
+  
+    .content h4 {
+      color: #eee;
+    }
+  
+    .content p,
+    .content label {
+      color: #fff;
+    }
+  
+    .content .login-form,
+    .content .forget-form {
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    .content .form-control {
+      background-color: #fff;
+    }
+  
+    .content .forget-form {
+      display: none;
+    }
+  
+    .content .form-title {
+      font-weight: 300;
+      margin-bottom: 25px;
+    }
+  
+    .MQTTLogo{
+      width: 15%;
+      //margin-right: 10px;
+      //margin-left: -10px;
+    }
+  
+    .content .form-actions {
+      background-color: transparent;
+      clear: both;
+      border: 0px;
+      padding: 0px 30px 25px 30px;
+      margin-left: -30px;
+      margin-right: -30px;
+    }
+  
+    .content .form-actions .checkbox {
+      margin-left: 0;
+      padding-left: 0;
+    }
+  
+    .content .forget-form .form-actions {
+      border: 0;
+      margin-bottom: 0;
+      padding-bottom: 20px;
+    }
+  
+    .content .register-form .form-actions {
+      border: 0;
+      margin-bottom: 0;
+      padding-bottom: 0px;
+    }
+  
+    .content .form-actions .checkbox {
+      margin-top: 8px;
+      display: inline-block;
+    }
+  
+    .content .form-actions .btn {
+      margin-top: 1px;
+    }
+  
+    .content .forget-password {
+      margin-top: 25px;
+    }
+  
+    .content {
+      .create-account {
+        border-top: 1px dotted #a2c237;
+        padding-top: 10px;
+        margin-top: 15px;
+        font-size: 15px;
+        a {
+          color: #a2c237 !important;
+          display: inline-block;
+          margin-top: 5px;
+        }
+      }
+    }
+    /* select2 dropdowns */
+    .content .select2-container i {
+      display: inline-block;
+      position: relative;
+      color: #ccc;
+      z-index: 1;
+      top: 1px;
+      margin: 4px 4px 0px -1px;
+      width: 16px;
+      height: 16px;
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .content .has-error .select2-container i {
+      color: #b94a48;
+    }
+  
+    .content .select2-container a span {
+      font-size: 13px;
+    }
+  
+    .content .select2-container a span img {
+      margin-left: 4px;
+    }
+  
+    /* footer copyright */
+    .copyright {
+      text-align: center;
+      margin: 0 auto;
+      padding: 10px;
+      color: #eee;
+      font-size: 13px;
+    }
+  
+    @media (max-width: 480px) {
+      /***
+      Login page
+      ***/
+      .logo {
+        margin-top: 10px;
+      }
+  
+      .content {
+        padding: 30px;
+        width: 222px;
+      }
+  
+      .content h3 {
+        font-size: 22px;
+      }
+  
+      .checkbox {
+        font-size: 13px;
+      }
+    }
+  
+  }

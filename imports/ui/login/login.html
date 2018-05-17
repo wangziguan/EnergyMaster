@@ -1,0 +1,49 @@
+<template name="login">
+    <div class="logo">
+        <!--<img src="image/heytzicon.png" alt="" style=" width: 200px;"/>-->
+    </div>
+
+    <div class="head-login">
+        <!--<img src="logo.png" class="logoImg">-->
+    </div>
+    
+    <div class="content">
+        <!-- BEGIN LOGIN FORM -->
+        <div class="login-form">
+            <h3 class="form-title text-center">
+                <img src="/MQTT.png" class="MQTTLogo">
+                用户登录
+            </h3>
+
+            <div class="form-group">
+                <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+                <label class="control-label visible-ie8 visible-ie9">
+                    用户名
+                </label>
+                <div class="input-icon">
+                    <i class="fa fa-user"></i>
+                    <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="用户名"
+                           name="username" id="username_content"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">
+                    密码
+                </label>
+                <div class="input-icon">
+                    <i class="fa fa-lock"></i>
+                    <input class="form-control placeholder-no-fix" type="password" autocomplete="off"
+                           placeholder="密码" name="password" id="pwd_content"/>
+                </div>
+            </div>
+            <div class="form-actions">
+                <button class="btn  btn-login  btn-lg btn-block" id="login-js">
+                    登录
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        2018 © MQTT.
+    </div>
+</template>
