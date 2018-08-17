@@ -1,12 +1,14 @@
 import { Router } from 'meteor/iron:router';
 
-import '../../ui/login/login.js';
-import '../../ui/device/deviceList.js';
+import '/imports/ui';
 
-import '../../ui/dashboard/dashboard.scss';
-import '../../ui/components/components.css';
-import '../../ui/AdminLTE/skins/skin-blue-light.min.css';
-import '../../ui/AdminLTE/AdminLTE.min.css';
+AdminConfig = {
+    name: 'MQTT Server',
+    adminEmails: ['wangziguan@sjtu.edu.cn'],
+    collections: {  },
+    skin: 'blue-light',
+  };
+  
 
 // 登录界面
 Router.route('login', {
@@ -26,16 +28,28 @@ Router.route('deviceList',{
         Meteor.subscribe("mqtt_messages");
     },
     action: function () {
-        // var t1 = Meteor.subscribe("deviceList");
-        // if (t1 && t1.ready()){
+        var t1 = Meteor.subscribe("deviceList");
+        if (t1 && t1.ready()){
             this.render();
-        // };
+        };
     }
 })
 
-// Dashboard页面
-// Router.route('dashboard', {
-//     path: '/dashboard',
-//     template: 'dashboard',
+// Router.route('update', {
+//     path: AdminDashboard.path('update'),
 //     controller: 'AdminController',
-// })
+//     onAfterAction: function () {
+//         Session.set('admin_title', '固件更新');
+//     },
+//     waitOn: function () {
+//         Meteor.subscribe("deviceList");
+//         Meteor.subscribe("mqtt_messages");
+//     },
+//     action: function () {
+//         var t1 = Meteor.subscribe("deviceList");
+//         if (t1 && t1.ready()){
+//             this.render();
+//         };
+//     }
+// });
+
