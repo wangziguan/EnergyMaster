@@ -1950,7 +1950,7 @@ Dropdowns
 Dropdown Menu
 ***/
 .dropdown-menu {
-    min-width: 175px;
+    min-width: 92px;
     position: absolute;
     top: 100%;
     left: 0;

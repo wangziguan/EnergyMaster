@@ -45,8 +45,8 @@ Router.route "adminDashboardUsersView",
 	data: ->
 		admin_table: AdminTables.Users
 	onAfterAction: ->
-		Session.set 'admin_title', 'Users'
-		Session.set 'admin_subtitle', 'View'
+		Session.set 'admin_title', '账号管理'
+		Session.set 'admin_subtitle', ''
 		Session.set 'admin_collection_name', 'Users'
 
 Router.route "adminDashboardUsersNew",
@@ -56,9 +56,9 @@ Router.route "adminDashboardUsersNew",
 	action: ->
 		@render()
 	onAfterAction: ->
-		Session.set 'admin_title', 'Users'
-		Session.set 'admin_subtitle', 'Create new user'
-		Session.set 'admin_collection_page', 'New'
+		Session.set 'admin_title', '账号管理'
+		Session.set 'admin_subtitle', '创建新用户'
+		Session.set 'admin_collection_page', ''
 		Session.set 'admin_collection_name', 'Users'
 
 Router.route "adminDashboardUsersEdit",
@@ -72,9 +72,9 @@ Router.route "adminDashboardUsersEdit",
 	action: ->
 		@render()
 	onAfterAction: ->
-		Session.set 'admin_title', 'Users'
-		Session.set 'admin_subtitle', 'Edit user ' + @params._id
-		Session.set 'admin_collection_page', 'edit'
+		Session.set 'admin_title', '账号管理'
+		Session.set 'admin_subtitle', '编辑用户 ' + @params._id
+		Session.set 'admin_collection_page', ''
 		Session.set 'admin_collection_name', 'Users'
 		Session.set 'admin_id', @params._id
 		Session.set 'admin_doc', Meteor.users.findOne({_id:@params._id})

@@ -1,3 +1,5 @@
+import { Meteor } from 'meteor/meteor';
+
 Meteor.publish("deviceList", function () {
     return DeviceList.find();
 });

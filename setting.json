@@ -1,0 +1,6 @@
+{ 
+  "MAIL_URL": "smtp://490842289:vymrsayggankbgge@qq.com:587",
+  "mqttURL": "http://58.196.128.13:1883",
+  "ROOT_URL": "http://58.196.128.13:3000",
+  "MONGO_URL": "mongodb://58.196.128.13:27017"
+} 

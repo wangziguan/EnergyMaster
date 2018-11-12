@@ -7,4 +7,4 @@ import './AdminLTE/AdminLTE.min.css';
 // import 页面
 import './login/login.js';
 import './device/deviceList.js';
-// import './update/update.js';
+import './update/update.js';
