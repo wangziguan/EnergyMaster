@@ -15,16 +15,16 @@ Router.route('deviceList',{
     onAfterAction: function () {
         Session.set('admin_title', '设备列表');
     },
-    waitOn: function () {
-        Meteor.subscribe("deviceList");
-        Meteor.subscribe("mqtt_messages");
-    },
-    action: function () {
-        var t1 = Meteor.subscribe("deviceList");
-        if (t1 && t1.ready()){
-            this.render();
-        };
-    }
+    // waitOn: function () {
+    //     // Meteor.subscribe("deviceList");
+    //     // Meteor.subscribe("mqtt_messages");
+    // },
+    // action: function () {
+    //     var t1 = Meteor.subscribe("deviceList");
+    //     if (t1 && t1.ready()){
+    //         this.render();
+    //     };
+    // }
 })
 
 Router.route('deviceUpdate', {
