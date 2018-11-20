@@ -1,2 +1,2 @@
-import '../../lib/adminConfig.js';
+import './adminConfig.js';
 import './routers.js';

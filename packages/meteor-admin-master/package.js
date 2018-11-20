@@ -9,7 +9,7 @@ Package.on_use(function(api){
 
   both = ['client','server']
 
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('METEOR@1.8');
 
   api.use(
     ['iron:router@1.0.9',
@@ -17,8 +17,9 @@ Package.on_use(function(api){
     'underscore',
     'reactive-var',
     'check',
-    'aldeed:collection2@2.5.0',
-    'aldeed:autoform@5.5.1',
+    'ecmascript',
+    'aldeed:collection2',
+    'aldeed:autoform',
     'aldeed:template-extension@4.0.0',
     'alanning:roles@1.2.13',
     'raix:handlebar-helpers@0.2.5',
@@ -26,7 +27,7 @@ Package.on_use(function(api){
     'momentjs:moment@2.10.6',
     'aldeed:tabular@1.4.0',
     'meteorhacks:unblock@1.1.0',
-    'zimme:active-route@2.3.2',
+    'zimme:active-route',
     'mfactory:admin-lte@0.0.2'
     ],
     both);
@@ -64,4 +65,8 @@ Package.on_use(function(api){
     ], 'server');
 
   api.export('AdminDashboard',both)
+});
+
+Npm.depends({
+  'simpl-schema':'1.5.3',
 });

@@ -1,10 +1,10 @@
 // import css文件
-import './dashboard/dashboard.scss';
-import './components/components.css';
-import './AdminLTE/skins/skin-blue-light.min.css';
-import './AdminLTE/AdminLTE.min.css';
+import './components/CSS/dashboard.scss';
+import './components/CSS/components.css';
+import './components/CSS/AdminLTE/skins/skin-blue-light.min.css';
+import './components/CSS/AdminLTE/AdminLTE.min.css';
 
 // import 页面
-import './login/login.js';
-import './device/deviceList.js';
-import './update/update.js';
+import './layouts/login/login.js';
+import './layouts/deviceList/deviceList.js';
+import './layouts/deviceUpdate/deviceUpdate.js';

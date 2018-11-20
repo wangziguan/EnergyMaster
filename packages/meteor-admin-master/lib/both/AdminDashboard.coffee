@@ -1,3 +1,5 @@
+import SimpleSchema from 'simpl-schema';
+
 AdminDashboard =
 	schemas: {}
 	sidebarItems: []
@@ -11,7 +13,7 @@ AdminDashboard =
 		if not Roles.userIsInRole Meteor.userId(), ['admin']
 			Meteor.call 'adminCheckAdmin'
 			if (typeof AdminConfig?.nonAdminRedirectRoute == "string")
-			  Router.go AdminConfig.nonAdminRedirectRoute
+				Router.go AdminConfig.nonAdminRedirectRoute
 		if typeof @.next == 'function'
 			@next()
 	adminRoutes: ['adminDashboard','adminDashboardUsersNew','adminDashboardUsersEdit','adminDashboardView','adminDashboardNew','adminDashboardEdit']

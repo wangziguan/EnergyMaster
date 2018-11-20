@@ -1,0 +1,118 @@
+<template name="deviceList">
+    <div class="page-content-wrapper">
+        <div class="page-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                    <div class="portlet box ">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <i class="fa fa-cubes"></i>设备列表
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="table-toolbar">
+                                <div class="row">
+                                    <label class="col-lg-1 control-label label-style">IMEI：</label>
+                                    <div class="col-lg-2">
+                                        <input id="cIMEI" type="text" class="form-control" placeholder="IMEI">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <button id="searchDevice" class="btn btn-default" type="button">搜索</button>
+                                        <button id="viewAllDevice" class="btn btn-default" type="button">查看所有</button>
+                                    </div>
+                                    {{#if isInRole 'admin'}}
+                                        <div class="col-md-3">
+                                            <button class="btn btn-success" type="button" data-toggle="modal"
+                                                    data-target="#addList">新增
+                                            </button>
+                                        </div>
+                                    {{/if}}
+                                </div>
+                            </div>
+                            <div>
+                                <select style="float: right;width: 50px;height: 20px;margin-bottom: 5px;"
+                                        id="limitShow">
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="40">40</option>
+                                </select>
+                                <label style="float: right;margin-top: 2px">单页显示：</label>
+                            </div>
+                            <table class="table table-striped table-hover table-bordered" id="deviceList-table" style="text-align:center">
+                                <thead>
+                                <tr>
+                                    <th scope="col" style="text-align:center">ID</th>
+                                    <th scope="col" style="text-align:center">IMEI</th>
+                                    <th scope="col" style="text-align:center">位置</th>
+                                    <th scope="col" style="text-align:center">电压</th>
+                                    <th scope="col" style="text-align:center">电流</th>
+                                    <th scope="col" style="text-align:center">功率</th>
+                                    <th scope="col" style="text-align:center">频率</th>
+                                    <th scope="col" style="text-align:center">电能</th>
+                                    <th scope="col" style="text-align:center">上报时间</th>
+                                </tr>
+                                </thead>
+                                {{#if deviceListInfo.count}}
+                                    {{#each deviceListInfo}}
+                                        <tbody>
+                                        <tr>
+                                            <td>{{this.clientId}}</td>
+                                            <td>{{this.imei}}</td>
+                                            <td>{{this.location}}</td>
+                                            <td>{{this.voltage}}</td>
+                                            <td>{{this.current}}</td>
+                                            <td>{{this.watt}}</td>
+                                            <td>{{this.frequency}}</td>
+                                            <td>{{this.energy}}</td>
+                                            <td>{{this.updateTime}}</td>
+                                        </tr>
+                                        </tbody>
+                                    {{/each}}
+                                {{else}}
+                                    <tbody>
+                                    <tr>
+                                        <td colspan="9" class="text-center">没有数据!</td>
+                                    </tr>
+                                    </tbody>
+                                {{/if}}
+                            </table>
+                            <div class="text-right">
+                                <ul class="pagination text-right"></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END EXAMPLE TABLE PORTLET-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="addList" class="modal fade" role="dialog" aria-hidden="true" style="display: none">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="portlet box">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                        <h4 class="modal-title">添加账号</h4>
+                    </div>
+                    <div class="portlet-body">
+                        {{#autoForm schema=Schemas.deviceList collection="DeviceList" type="insert" id="adddeviceList"}}
+                            <fieldset>
+                                {{> afQuickField name="clientId" class="clientIds"}}
+                                {{> afQuickField name="location" class="locations"}}
+                                {{> afQuickField name="imei" class="imeis"}}
+                            </fieldset>
+                            {{#if submitButtonStatus}}
+                                <button type="submit" class="btn btn-primary submitButton">提交</button>
+                                <button type="reset" class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
+                            {{else}}
+                                <span style="color: red;">用户名或者IMEI已存在!</span>                           
+                            {{/if}}
+                        {{/autoForm}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

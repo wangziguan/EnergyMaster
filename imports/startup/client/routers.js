@@ -15,33 +15,14 @@ Router.route('deviceList',{
     onAfterAction: function () {
         Session.set('admin_title', '设备列表');
     },
-    // waitOn: function () {
-    //     // Meteor.subscribe("deviceList");
-    //     // Meteor.subscribe("mqtt_messages");
-    // },
-    // action: function () {
-    //     var t1 = Meteor.subscribe("deviceList");
-    //     if (t1 && t1.ready()){
-    //         this.render();
-    //     };
-    // }
 })
 
+// 固件更新界面
 Router.route('deviceUpdate', {
     path: AdminDashboard.path('deviceUpdate'),
     controller: 'AdminController',
     onAfterAction: function () {
         Session.set('admin_title', '固件更新');
     },
-    waitOn: function () {
-        Meteor.subscribe("deviceList");
-        Meteor.subscribe("mqtt_messages");
-    },
-    action: function () {
-        var t1 = Meteor.subscribe("deviceList");
-        if (t1 && t1.ready()){
-            this.render();
-        };
-    }
 });
 

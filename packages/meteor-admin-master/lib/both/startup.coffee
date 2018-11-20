@@ -84,7 +84,7 @@ adminCreateRouteViewOptions = (collection, collectionName) ->
 		template: "AdminDashboardViewWrapper"
 		controller: "AdminController"
 		data: ->
-  		admin_table: AdminTables[collectionName]
+			admin_table: AdminTables[collectionName]
 		action: ->
 			@render()
 		onAfterAction: ->
