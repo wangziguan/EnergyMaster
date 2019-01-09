@@ -108,7 +108,7 @@ if (! hasOwn.call(proto, "finally")) {
                                                                            //
 module.exports = {
   "name": "meteor-promise",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "browser": "promise_client.js",
   "main": "promise_server.js"
 };
