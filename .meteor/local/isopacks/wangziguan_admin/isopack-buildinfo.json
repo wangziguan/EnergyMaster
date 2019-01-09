@@ -1202,7 +1202,7 @@
     },
     "ecmascript": {
       "kind": "versioned",
-      "version": "0.12.2"
+      "version": "0.12.4"
     },
     "aldeed:collection2": {
       "kind": "versioned",
@@ -1230,7 +1230,7 @@
     },
     "momentjs:moment": {
       "kind": "versioned",
-      "version": "2.22.2"
+      "version": "2.23.0"
     },
     "aldeed:tabular": {
       "kind": "versioned",
@@ -1266,11 +1266,11 @@
     },
     "promise": {
       "kind": "versioned",
-      "version": "0.11.1"
+      "version": "0.11.2"
     },
     "dynamic-import": {
       "kind": "versioned",
-      "version": "0.5.0"
+      "version": "0.5.1"
     },
     "modules": {
       "kind": "versioned",
@@ -1294,7 +1294,7 @@
     },
     "session": {
       "kind": "versioned",
-      "version": "1.1.8"
+      "version": "1.2.0"
     },
     "jquery": {
       "kind": "versioned",
