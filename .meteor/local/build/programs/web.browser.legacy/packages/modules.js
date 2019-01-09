@@ -182,7 +182,7 @@ install("fortawesome:fontawesome");
 install("mousetrap:mousetrap");
 install("goltfisch:jquery-backstretch");
 install("fourseven:scss");
-install("session");
+install("session", "meteor/session/session.js");
 install("coffeescript");
 install("raix:eventemitter");
 install("tmeasday:check-npm-versions", "meteor/tmeasday:check-npm-versions/check-npm-versions.js");
