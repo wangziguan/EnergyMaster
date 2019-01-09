@@ -14,3 +14,10 @@ AdminDashboard.addSidebarItem('设备管理', {
     { title: '固件更新', url: AdminDashboard.path('/deviceUpdate') }
   ]
 });
+
+AdminDashboard.addSidebarItem('电能信息展示', {
+  icon: 'cube',
+  urls: [
+    { title: '电能信息', url: AdminDashboard.path('/energymessage') },
+  ]
+});

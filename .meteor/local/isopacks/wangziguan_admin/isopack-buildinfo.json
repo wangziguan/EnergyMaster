@@ -1,0 +1,1317 @@
+{
+  "builtBy": "meteor/31",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/package.js": "11900a264434bc4808981d140ed509f46ece2f40",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.js": "2295ffa0b7bd77cf737d516fcfe4f83264d6cab0",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.json": "5fbeae4a3e70c329f31a6ef0657a6f63b9782872",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/.npm/package/npm-shrinkwrap.json": "d1692b486b1d36a752d3e5d3f049b0eb2a58e8ba",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/AdminDashboard.coffee": "60f2ef35fbc0c7ccca7d649d48a5c2608b5d9379",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/router.coffee": "57c4dfad4df3f3a2c8d16cc69f4e17d99e489677",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/utils.coffee": "db7265cde6bf7957749a66943ece987e32e10a2a",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/startup.coffee": "5e8b74534936630988f9904b2b970e582061fc65",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/collections.coffee": "4b34e5c6a38ea7a3e0d9894081b835216fa5cfd5",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/server/publish.coffee": "38abc6636415067c955f6ef7b32df12fa341b3a5",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/server/methods.coffee": "785ca87742fc2409910e2e8bf42ad364e06f19a2"
+      },
+      "directories": [
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master",
+          "include": [
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "lib/",
+            "readme/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib",
+          "include": [
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "both/",
+            "server/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both",
+          "include": [
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "AdminDashboard.coffee",
+            "collections.coffee",
+            "router.coffee",
+            "startup.coffee",
+            "utils.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/server",
+          "include": [
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "methods.coffee",
+            "publish.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/server",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/readme",
+          "include": [
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/readme",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        }
+      ]
+    },
+    "web.browser.json": {
+      "files": {
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/package.js": "11900a264434bc4808981d140ed509f46ece2f40",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.js": "2295ffa0b7bd77cf737d516fcfe4f83264d6cab0",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.json": "5fbeae4a3e70c329f31a6ef0657a6f63b9782872",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/.npm/package/npm-shrinkwrap.json": "d1692b486b1d36a752d3e5d3f049b0eb2a58e8ba",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/AdminDashboard.coffee": "60f2ef35fbc0c7ccca7d649d48a5c2608b5d9379",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/router.coffee": "57c4dfad4df3f3a2c8d16cc69f4e17d99e489677",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/utils.coffee": "db7265cde6bf7957749a66943ece987e32e10a2a",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/startup.coffee": "5e8b74534936630988f9904b2b970e582061fc65",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/collections.coffee": "4b34e5c6a38ea7a3e0d9894081b835216fa5cfd5",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_templates.html": "df67bc98bac88003ec51bf763ef53ac08f6576d5",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_widgets.html": "bd52dcb64067a7ee04dce3a9fe4b1b5164a36815",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_layouts.html": "30bfd745769a1903ecc2731b8c0e84f1162c346e",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_sidebar.html": "f0f1c74c09fe1846916beed342b7690431ef6570",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_header.html": "a748b3cbc113d412685741896fc691f9e2c2c606",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/css/admin-custom.less": "5c707a28bef0f7f16dd3dc750adc2a1f33e4a34f",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/admin_layout.js": "f372c74b9536a138ad11da0e1cf328e62c1dd542",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/helpers.coffee": "27e8030b36fe27b3eae22335d7552797397ad9bc",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/templates.coffee": "8edd94f58b134f03be7315f46316d45cdf431243",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/events.coffee": "0dd23957fcc9fb4fcc834085098ac2c8d40f39be",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/slim_scroll.js": "b0c92e88a3c4ba865d62b61b284fc89e06c5db89",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/autoForm.coffee": "3d922e3758430780c3168619b4cf8b01bc044a21"
+      },
+      "directories": [
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "lib/",
+            "readme/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "both/",
+            "client/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "AdminDashboard.coffee",
+            "collections.coffee",
+            "router.coffee",
+            "startup.coffee",
+            "utils.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "html/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/css",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "admin-custom.less"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "admin_header.html",
+            "admin_layouts.html",
+            "admin_sidebar.html",
+            "admin_templates.html",
+            "admin_widgets.html"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "admin_layout.js",
+            "autoForm.coffee",
+            "events.coffee",
+            "helpers.coffee",
+            "slim_scroll.js",
+            "templates.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/readme",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/readme",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        }
+      ]
+    },
+    "web.browser.legacy.json": {
+      "files": {
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/package.js": "11900a264434bc4808981d140ed509f46ece2f40",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.js": "2295ffa0b7bd77cf737d516fcfe4f83264d6cab0",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.json": "5fbeae4a3e70c329f31a6ef0657a6f63b9782872",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/.npm/package/npm-shrinkwrap.json": "d1692b486b1d36a752d3e5d3f049b0eb2a58e8ba",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/AdminDashboard.coffee": "60f2ef35fbc0c7ccca7d649d48a5c2608b5d9379",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/router.coffee": "57c4dfad4df3f3a2c8d16cc69f4e17d99e489677",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/utils.coffee": "db7265cde6bf7957749a66943ece987e32e10a2a",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/startup.coffee": "5e8b74534936630988f9904b2b970e582061fc65",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both/collections.coffee": "4b34e5c6a38ea7a3e0d9894081b835216fa5cfd5",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_templates.html": "df67bc98bac88003ec51bf763ef53ac08f6576d5",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_widgets.html": "bd52dcb64067a7ee04dce3a9fe4b1b5164a36815",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_layouts.html": "30bfd745769a1903ecc2731b8c0e84f1162c346e",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_sidebar.html": "f0f1c74c09fe1846916beed342b7690431ef6570",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html/admin_header.html": "a748b3cbc113d412685741896fc691f9e2c2c606",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/css/admin-custom.less": "5c707a28bef0f7f16dd3dc750adc2a1f33e4a34f",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/admin_layout.js": "f372c74b9536a138ad11da0e1cf328e62c1dd542",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/helpers.coffee": "27e8030b36fe27b3eae22335d7552797397ad9bc",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/templates.coffee": "8edd94f58b134f03be7315f46316d45cdf431243",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/events.coffee": "0dd23957fcc9fb4fcc834085098ac2c8d40f39be",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/slim_scroll.js": "b0c92e88a3c4ba865d62b61b284fc89e06c5db89",
+        "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js/autoForm.coffee": "3d922e3758430780c3168619b4cf8b01bc044a21"
+      },
+      "directories": [
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "lib/",
+            "readme/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "both/",
+            "client/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "AdminDashboard.coffee",
+            "collections.coffee",
+            "router.coffee",
+            "startup.coffee",
+            "utils.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/both",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "html/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/css",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "admin-custom.less"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "admin_header.html",
+            "admin_layouts.html",
+            "admin_sidebar.html",
+            "admin_templates.html",
+            "admin_widgets.html"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/html",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "admin_layout.js",
+            "autoForm.coffee",
+            "events.coffee",
+            "helpers.coffee",
+            "slim_scroll.js",
+            "templates.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/lib/client/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/readme",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$",
+            "\\.jsx$",
+            "\\.less$",
+            "\\.lessimport$",
+            "\\.html$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/readme",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        }
+      ]
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master/package.js": "11900a264434bc4808981d140ed509f46ece2f40"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "wangziguan:admin": {
+      "kind": "local",
+      "sourceRoot": "/home/wangziguan/wzg/EnergyMaster/packages/meteor-admin-master"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.9.2"
+    },
+    "iron:router": {
+      "kind": "versioned",
+      "version": "1.1.2"
+    },
+    "coffeescript": {
+      "kind": "versioned",
+      "version": "2.3.2_1"
+    },
+    "underscore": {
+      "kind": "versioned",
+      "version": "1.0.10"
+    },
+    "reactive-var": {
+      "kind": "versioned",
+      "version": "1.0.11"
+    },
+    "check": {
+      "kind": "versioned",
+      "version": "1.3.1"
+    },
+    "ecmascript": {
+      "kind": "versioned",
+      "version": "0.12.2"
+    },
+    "aldeed:collection2": {
+      "kind": "versioned",
+      "version": "3.0.1"
+    },
+    "aldeed:autoform": {
+      "kind": "versioned",
+      "version": "6.3.0"
+    },
+    "aldeed:template-extension": {
+      "kind": "versioned",
+      "version": "4.1.0"
+    },
+    "alanning:roles": {
+      "kind": "versioned",
+      "version": "1.2.16"
+    },
+    "raix:handlebar-helpers": {
+      "kind": "versioned",
+      "version": "0.2.5"
+    },
+    "reywood:publish-composite": {
+      "kind": "versioned",
+      "version": "1.7.0"
+    },
+    "momentjs:moment": {
+      "kind": "versioned",
+      "version": "2.22.2"
+    },
+    "aldeed:tabular": {
+      "kind": "versioned",
+      "version": "1.6.1"
+    },
+    "meteorhacks:unblock": {
+      "kind": "versioned",
+      "version": "1.1.0"
+    },
+    "zimme:active-route": {
+      "kind": "local",
+      "sourceRoot": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute"
+    },
+    "mfactory:admin-lte": {
+      "kind": "versioned",
+      "version": "0.0.2"
+    },
+    "email": {
+      "kind": "versioned",
+      "version": "1.2.3"
+    },
+    "iron:core": {
+      "kind": "versioned",
+      "version": "1.0.11"
+    },
+    "ecmascript-runtime": {
+      "kind": "versioned",
+      "version": "0.7.0"
+    },
+    "babel-runtime": {
+      "kind": "versioned",
+      "version": "1.3.0"
+    },
+    "promise": {
+      "kind": "versioned",
+      "version": "0.11.1"
+    },
+    "dynamic-import": {
+      "kind": "versioned",
+      "version": "0.5.0"
+    },
+    "modules": {
+      "kind": "versioned",
+      "version": "0.13.0"
+    },
+    "mongo": {
+      "kind": "versioned",
+      "version": "1.6.0"
+    },
+    "ecmascript-runtime-client": {
+      "kind": "versioned",
+      "version": "0.8.0"
+    },
+    "ecmascript-runtime-server": {
+      "kind": "versioned",
+      "version": "0.7.1"
+    },
+    "less": {
+      "kind": "versioned",
+      "version": "2.8.0"
+    },
+    "session": {
+      "kind": "versioned",
+      "version": "1.1.8"
+    },
+    "jquery": {
+      "kind": "versioned",
+      "version": "1.11.11"
+    },
+    "templating": {
+      "kind": "versioned",
+      "version": "1.3.2"
+    },
+    "templating-runtime": {
+      "kind": "versioned",
+      "version": "1.3.2"
+    },
+    "templating-compiler": {
+      "kind": "versioned",
+      "version": "1.3.3"
+    }
+  },
+  "includeCordovaUnibuild": false
+}

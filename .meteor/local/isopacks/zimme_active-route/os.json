@@ -1,0 +1,62 @@
+{
+  "format": "isopack-2-unibuild",
+  "declaredExports": [
+    {
+      "name": "ActiveRoute",
+      "testOnly": false
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "check",
+      "constraint": "1.2.5"
+    },
+    {
+      "package": "coffeescript"
+    },
+    {
+      "package": "reactive-dict",
+      "constraint": "1.2.0"
+    },
+    {
+      "package": "underscore",
+      "constraint": "1.0.10"
+    },
+    {
+      "package": "kadira:flow-router",
+      "constraint": "2.0.0",
+      "weak": true
+    },
+    {
+      "package": "meteorhacks:flow-router",
+      "constraint": "1.8.0",
+      "weak": true
+    },
+    {
+      "package": "iron:router",
+      "constraint": "1.0.0",
+      "weak": true
+    },
+    {
+      "package": "templating",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "os/lib/activeroute.coffee",
+      "length": 2713,
+      "offset": 0,
+      "path": "lib/activeroute.coffee",
+      "hash": "ebeeef6dc620c13a7e4abc1b5f4b50fa2e235a93",
+      "fileOptions": {
+        "lazy": false
+      }
+    }
+  ]
+}

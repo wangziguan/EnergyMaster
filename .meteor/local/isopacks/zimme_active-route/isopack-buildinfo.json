@@ -1,0 +1,474 @@
+{
+  "builtBy": "meteor/31",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.js": "2295ffa0b7bd77cf737d516fcfe4f83264d6cab0",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.json": "5fbeae4a3e70c329f31a6ef0657a6f63b9782872",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/lib/activeroute.coffee": "ebeeef6dc620c13a7e4abc1b5f4b50fa2e235a93"
+      },
+      "directories": [
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute",
+          "include": [
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "lib/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/lib",
+          "include": [
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "activeroute.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/lib",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        }
+      ]
+    },
+    "web.browser.json": {
+      "files": {
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.js": "2295ffa0b7bd77cf737d516fcfe4f83264d6cab0",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.json": "5fbeae4a3e70c329f31a6ef0657a6f63b9782872",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/lib/activeroute.coffee": "ebeeef6dc620c13a7e4abc1b5f4b50fa2e235a93",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/client/helpers.coffee": "74e092292989580f45dddc47ce116eb741a428d4"
+      },
+      "directories": [
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "client/",
+            "lib/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/client",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "helpers.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/client",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/lib",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "activeroute.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/lib",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        }
+      ]
+    },
+    "web.browser.legacy.json": {
+      "files": {
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.js": "2295ffa0b7bd77cf737d516fcfe4f83264d6cab0",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.json": "5fbeae4a3e70c329f31a6ef0657a6f63b9782872",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/lib/activeroute.coffee": "ebeeef6dc620c13a7e4abc1b5f4b50fa2e235a93",
+        "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/client/helpers.coffee": "74e092292989580f45dddc47ce116eb741a428d4"
+      },
+      "directories": [
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "client/",
+            "lib/"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/client",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "helpers.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/client",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/lib",
+          "include": [
+            "\\.css$",
+            "\\.coffee$",
+            "\\.litcoffee$",
+            "\\.coffee\\.md$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "activeroute.coffee"
+          ]
+        },
+        {
+          "absPath": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/lib",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        }
+      ]
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.js": "2295ffa0b7bd77cf737d516fcfe4f83264d6cab0",
+      "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute/package.json": "5fbeae4a3e70c329f31a6ef0657a6f63b9782872"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "zimme:active-route": {
+      "kind": "local",
+      "sourceRoot": "/home/wangziguan/wzg/EnergyMaster/packages/zimme_activeroute"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.9.2"
+    },
+    "check": {
+      "kind": "versioned",
+      "version": "1.3.1"
+    },
+    "coffeescript": {
+      "kind": "versioned",
+      "version": "2.3.2_1"
+    },
+    "reactive-dict": {
+      "kind": "versioned",
+      "version": "1.2.1"
+    },
+    "underscore": {
+      "kind": "versioned",
+      "version": "1.0.10"
+    },
+    "ecmascript-runtime": {
+      "kind": "versioned",
+      "version": "0.7.0"
+    },
+    "babel-runtime": {
+      "kind": "versioned",
+      "version": "1.3.0"
+    },
+    "promise": {
+      "kind": "versioned",
+      "version": "0.11.1"
+    },
+    "dynamic-import": {
+      "kind": "versioned",
+      "version": "0.5.0"
+    },
+    "ecmascript-runtime-client": {
+      "kind": "versioned",
+      "version": "0.8.0"
+    },
+    "ecmascript-runtime-server": {
+      "kind": "versioned",
+      "version": "0.7.1"
+    }
+  },
+  "includeCordovaUnibuild": false
+}

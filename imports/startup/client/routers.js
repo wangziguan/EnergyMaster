@@ -25,4 +25,3 @@ Router.route('deviceUpdate', {
         Session.set('admin_title', '固件更新');
     },
 });
-

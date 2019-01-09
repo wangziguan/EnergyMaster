@@ -1,0 +1,299 @@
+{
+  "format": "isopack-2-unibuild",
+  "declaredExports": [
+    {
+      "name": "AdminDashboard",
+      "testOnly": false
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "iron:router",
+      "constraint": "1.0.9"
+    },
+    {
+      "package": "coffeescript"
+    },
+    {
+      "package": "underscore",
+      "constraint": "1.0.10"
+    },
+    {
+      "package": "reactive-var",
+      "constraint": "1.0.11"
+    },
+    {
+      "package": "check",
+      "constraint": "1.3.1"
+    },
+    {
+      "package": "ecmascript",
+      "constraint": "0.12.0"
+    },
+    {
+      "package": "aldeed:collection2"
+    },
+    {
+      "package": "aldeed:autoform"
+    },
+    {
+      "package": "aldeed:template-extension",
+      "constraint": "4.0.0"
+    },
+    {
+      "package": "alanning:roles",
+      "constraint": "1.2.13"
+    },
+    {
+      "package": "raix:handlebar-helpers",
+      "constraint": "0.2.5"
+    },
+    {
+      "package": "reywood:publish-composite",
+      "constraint": "1.4.2"
+    },
+    {
+      "package": "momentjs:moment",
+      "constraint": "2.10.6"
+    },
+    {
+      "package": "aldeed:tabular",
+      "constraint": "1.4.0"
+    },
+    {
+      "package": "meteorhacks:unblock",
+      "constraint": "1.1.0"
+    },
+    {
+      "package": "zimme:active-route"
+    },
+    {
+      "package": "mfactory:admin-lte",
+      "constraint": "0.0.2"
+    },
+    {
+      "package": "less",
+      "constraint": "1.0.0 || 2.5.0"
+    },
+    {
+      "package": "session",
+      "constraint": "1.1.8"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "templating"
+    }
+  ],
+  "resources": [
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "web.browser.legacy/lib/both/AdminDashboard.coffee",
+      "length": 1958,
+      "offset": 0,
+      "path": "lib/both/AdminDashboard.coffee",
+      "hash": "60f2ef35fbc0c7ccca7d649d48a5c2608b5d9379",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "web.browser.legacy/lib/both/router.coffee",
+      "length": 2390,
+      "offset": 0,
+      "path": "lib/both/router.coffee",
+      "hash": "57c4dfad4df3f3a2c8d16cc69f4e17d99e489677",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "web.browser.legacy/lib/both/utils.coffee",
+      "length": 1130,
+      "offset": 0,
+      "path": "lib/both/utils.coffee",
+      "hash": "db7265cde6bf7957749a66943ece987e32e10a2a",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "web.browser.legacy/lib/both/startup.coffee",
+      "length": 6192,
+      "offset": 0,
+      "path": "lib/both/startup.coffee",
+      "hash": "5e8b74534936630988f9904b2b970e582061fc65",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "web.browser.legacy/lib/both/collections.coffee",
+      "length": 69,
+      "offset": 0,
+      "path": "lib/both/collections.coffee",
+      "hash": "4b34e5c6a38ea7a3e0d9894081b835216fa5cfd5",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "html",
+      "file": "web.browser.legacy/lib/client/html/admin_templates.html",
+      "length": 5710,
+      "offset": 0,
+      "path": "lib/client/html/admin_templates.html",
+      "hash": "df67bc98bac88003ec51bf763ef53ac08f6576d5",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "html",
+      "file": "web.browser.legacy/lib/client/html/admin_widgets.html",
+      "length": 762,
+      "offset": 0,
+      "path": "lib/client/html/admin_widgets.html",
+      "hash": "bd52dcb64067a7ee04dce3a9fe4b1b5164a36815",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "html",
+      "file": "web.browser.legacy/lib/client/html/admin_layouts.html",
+      "length": 2857,
+      "offset": 0,
+      "path": "lib/client/html/admin_layouts.html",
+      "hash": "30bfd745769a1903ecc2731b8c0e84f1162c346e",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "html",
+      "file": "web.browser.legacy/lib/client/html/admin_sidebar.html",
+      "length": 1775,
+      "offset": 0,
+      "path": "lib/client/html/admin_sidebar.html",
+      "hash": "f0f1c74c09fe1846916beed342b7690431ef6570",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "html",
+      "file": "web.browser.legacy/lib/client/html/admin_header.html",
+      "length": 1492,
+      "offset": 0,
+      "path": "lib/client/html/admin_header.html",
+      "hash": "a748b3cbc113d412685741896fc691f9e2c2c606",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "less",
+      "file": "web.browser.legacy/lib/client/css/admin-custom.less",
+      "length": 1511,
+      "offset": 0,
+      "path": "lib/client/css/admin-custom.less",
+      "hash": "5c707a28bef0f7f16dd3dc750adc2a1f33e4a34f",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser.legacy/lib/client/js/admin_layout.js",
+      "length": 800,
+      "offset": 0,
+      "path": "lib/client/js/admin_layout.js",
+      "hash": "f372c74b9536a138ad11da0e1cf328e62c1dd542",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "web.browser.legacy/lib/client/js/helpers.coffee",
+      "length": 3817,
+      "offset": 0,
+      "path": "lib/client/js/helpers.coffee",
+      "hash": "27e8030b36fe27b3eae22335d7552797397ad9bc",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "web.browser.legacy/lib/client/js/templates.coffee",
+      "length": 1527,
+      "offset": 0,
+      "path": "lib/client/js/templates.coffee",
+      "hash": "8edd94f58b134f03be7315f46316d45cdf431243",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "web.browser.legacy/lib/client/js/events.coffee",
+      "length": 1105,
+      "offset": 0,
+      "path": "lib/client/js/events.coffee",
+      "hash": "0dd23957fcc9fb4fcc834085098ac2c8d40f39be",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser.legacy/lib/client/js/slim_scroll.js",
+      "length": 4711,
+      "offset": 0,
+      "path": "lib/client/js/slim_scroll.js",
+      "hash": "b0c92e88a3c4ba865d62b61b284fc89e06c5db89",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "coffee",
+      "file": "web.browser.legacy/lib/client/js/autoForm.coffee",
+      "length": 2033,
+      "offset": 0,
+      "path": "lib/client/js/autoForm.coffee",
+      "hash": "3d922e3758430780c3168619b4cf8b01bc044a21",
+      "fileOptions": {
+        "lazy": false
+      }
+    }
+  ],
+  "node_modules": "npm/node_modules"
+}

@@ -1,0 +1,26 @@
+{
+  "isopack-2": {
+    "name": "wangziguan:admin",
+    "summary": "A complete admin dashboard solution",
+    "version": "1.2.8",
+    "isTest": false,
+    "builds": [
+      {
+        "kind": "main",
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.browser.legacy",
+        "path": "web.browser.legacy.json"
+      }
+    ],
+    "plugins": []
+  }
+}
